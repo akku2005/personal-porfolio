@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
-    closeMenu(); // Close the menu after scrolling
+    closeMenu(); 
   };
 
   return (
@@ -26,7 +26,9 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 cursor-pointer" onClick={() => scrollToSection("home")}>
-              <h1 className="text-2xl font-bold">My Portfolio</h1>
+            <h1 className="text-2xl font-bold">
+      Akash{''}{'\''}s Portfolio
+    </h1>
             </div>
           </div>
           <div className="hidden md:block">
