@@ -1,20 +1,20 @@
 import React from 'react';
 import Image from 'next/image';
-import htmlIcon from '../../assets/icons/html.png';
-import cssIcon from '../../assets/icons/css.png';
-import jsIcon from '../../assets/icons/javascript.png';
-import tailwindIcon from '../../assets/icons/tailwind-css.png';
-import reactIcon from '../../assets/icons/react-js.png';
-import nextjs from '../../assets/icons/nextjs.png';
+import NodeJs from '../../assets/icons/node-js.png';
+import EcpressJs from '../../assets/icons/icons8-express-js-48.png';
+import MongoDB from '../../assets/icons/mongodb.png';
+import MySql from '../../assets/icons/mysql.png';
+import RestApi from '../../assets/icons/rest-api.png';
+import Graphql from '../../assets/icons/icons8graphql.png';
 
-const FrontendCard = () => {
+const Backend = () => {
   const skills = [
-    { name: 'HTML', icon: htmlIcon },
-    { name: 'CSS', icon: cssIcon },
-    { name: 'JavaScript', icon: jsIcon },
-    { name: 'Tailwind', icon: tailwindIcon },
-    { name: 'React Js', icon: reactIcon },
-    { name: 'Next JS', icon: nextjs },
+    { name: 'Node.Js', icon: NodeJs },
+    { name: 'Express', icon: EcpressJs },
+    { name: 'MongoDB', icon: MongoDB },
+    { name: 'MySQL', icon: MySql },
+    { name: 'Rest APIs', icon: RestApi },
+    { name: 'GraphQL', icon: Graphql },
   ];
 
   return (
@@ -43,4 +43,4 @@ const FrontendCard = () => {
   );
 };
 
-export default FrontendCard;
+export default Backend;

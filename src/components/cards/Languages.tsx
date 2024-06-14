@@ -1,20 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
-import htmlIcon from '../../assets/icons/html.png';
-import cssIcon from '../../assets/icons/css.png';
-import jsIcon from '../../assets/icons/javascript.png';
-import tailwindIcon from '../../assets/icons/tailwind-css.png';
-import reactIcon from '../../assets/icons/react-js.png';
-import nextjs from '../../assets/icons/nextjs.png';
+import Java from '../../assets/icons/java.png';
+import JavaScript from '../../assets/icons/javascript.png';
+import C from '../../assets/icons/cLang.png';
+import Python from '../../assets/icons/python.png';
 
-const FrontendCard = () => {
+
+const Languages = () => {
   const skills = [
-    { name: 'HTML', icon: htmlIcon },
-    { name: 'CSS', icon: cssIcon },
-    { name: 'JavaScript', icon: jsIcon },
-    { name: 'Tailwind', icon: tailwindIcon },
-    { name: 'React Js', icon: reactIcon },
-    { name: 'Next JS', icon: nextjs },
+    { name: 'JavaScript', icon: JavaScript },
+    { name: 'Java', icon: Java },
+    { name: 'C', icon: C },
+    { name: 'Python', icon: Python },
   ];
 
   return (
@@ -43,4 +40,4 @@ const FrontendCard = () => {
   );
 };
 
-export default FrontendCard;
+export default Languages;

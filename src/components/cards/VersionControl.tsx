@@ -1,20 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
-import htmlIcon from '../../assets/icons/html.png';
-import cssIcon from '../../assets/icons/css.png';
-import jsIcon from '../../assets/icons/javascript.png';
-import tailwindIcon from '../../assets/icons/tailwind-css.png';
-import reactIcon from '../../assets/icons/react-js.png';
-import nextjs from '../../assets/icons/nextjs.png';
+import Git from '../../assets/icons/git.png';
+import GitHub from '../../assets/icons/github.png';
+import VsCode from '../../assets/icons/vs-code-48.png';
 
-const FrontendCard = () => {
+
+const VersionControl = () => {
   const skills = [
-    { name: 'HTML', icon: htmlIcon },
-    { name: 'CSS', icon: cssIcon },
-    { name: 'JavaScript', icon: jsIcon },
-    { name: 'Tailwind', icon: tailwindIcon },
-    { name: 'React Js', icon: reactIcon },
-    { name: 'Next JS', icon: nextjs },
+    { name: 'Git', icon: Git },
+    { name: 'GitHub', icon: GitHub },
+    { name: 'VS Code', icon: VsCode },
+ 
   ];
 
   return (
@@ -43,4 +39,4 @@ const FrontendCard = () => {
   );
 };
 
-export default FrontendCard;
+export default VersionControl;

@@ -1,20 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import htmlIcon from '../../assets/icons/html.png';
-import cssIcon from '../../assets/icons/css.png';
-import jsIcon from '../../assets/icons/javascript.png';
-import tailwindIcon from '../../assets/icons/tailwind-css.png';
-import reactIcon from '../../assets/icons/react-js.png';
-import nextjs from '../../assets/icons/nextjs.png';
+import MongoDB from '../../assets/icons/mongodb.png';
+import MySql from '../../assets/icons/mysql.png';
 
-const FrontendCard = () => {
+const Database = () => {
   const skills = [
-    { name: 'HTML', icon: htmlIcon },
-    { name: 'CSS', icon: cssIcon },
-    { name: 'JavaScript', icon: jsIcon },
-    { name: 'Tailwind', icon: tailwindIcon },
-    { name: 'React Js', icon: reactIcon },
-    { name: 'Next JS', icon: nextjs },
+    { name: 'MongoDB', icon: MongoDB },
+    { name: 'MySQL', icon: MySql },
   ];
 
   return (
@@ -43,4 +35,4 @@ const FrontendCard = () => {
   );
 };
 
-export default FrontendCard;
+export default Database;
