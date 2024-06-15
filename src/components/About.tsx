@@ -4,7 +4,7 @@ import Image from "next/image";
 import profile from "../assets/profile.png";
 
 const About: React.FC = () => {
-  const resumeLink = "https://drive.google.com/file/d/1mGQ502fnGPVAtL15pqGFiZf392UnQVp6/view?usp=drive_link";
+  const resumeLink = "https://drive.google.com/file/d/1NZmn2nZk1ebSSDQkLp5m1hbT70XngyV_/view?usp=drive_link";
 
   return (
     <section id="about" className="text-white relative">
