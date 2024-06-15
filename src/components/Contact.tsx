@@ -1,6 +1,5 @@
-"use client"
-import React from 'react';
-import { useState, ChangeEvent, FormEvent } from 'react';
+"use client";
+import React, { useState, ChangeEvent, FormEvent } from 'react';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -44,14 +43,14 @@ const ContactMe: React.FC = () => {
   };
 
   return (
-    <section id='contact' className="bg-transparent">
+    <section id='contact' className="bg-transparent relative">
       <BackgroundBeams />
       <ToastContainer position="top-center" autoClose={3000} />
-      <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md relative z-1">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-300">
           Contact Me
         </h2>
-        <form onSubmit={handleSubmit} className="space-y-8 ">
+        <form onSubmit={handleSubmit} className="space-y-8">
           <div>
             <label
               htmlFor="email"
@@ -151,7 +150,7 @@ const ContactMe: React.FC = () => {
               href="https://x.com/AkashSa07314397"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-md drop-shadow-xl  text-white hover:text-sky-500 transition duration-200"
+              className="p-2 rounded-md drop-shadow-xl text-white hover:text-sky-500 transition duration-200"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -166,7 +165,7 @@ const ContactMe: React.FC = () => {
               href="https://www.linkedin.com/in/akashkumar-sahu-5b7897238"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-md drop-shadow-xl  text-white hover:text-sky-700 transition duration-200 mx-4"
+              className="p-2 rounded-md drop-shadow-xl text-white hover:text-sky-700 transition duration-200 mx-4"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -181,7 +180,7 @@ const ContactMe: React.FC = () => {
               href="https://github.com/akku2005"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-md drop-shadow-xl  text-white hover:text-rose-500 transition duration-200"
+              className="p-2 rounded-md drop-shadow-xl text-white hover:text-rose-500 transition duration-200"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
