@@ -1,68 +1,39 @@
-import pro1 from "./images/ChatApp.jpg"
+import bg1 from "../data/images/ChatApp.jpg"
+import porfolioImage from "../data/images/porfolio.jpg"
+import evDashboard from "../data/images/EvDashboard.jpg"
+import reactIcons from "../../svg/reactjs.svg"
+import tailwindIcons from "../../svg/tailwindcsssvg.svg"
+import mongodbIcons from "../../svg/mongo-svg.svg"
+import javascriptIcons from "../../svg/javascriptsvg.svg"
+import typeScriptIcons from "../../svg/typescriptsvg.svg"
+import IconsNext from "../../svg/icons8-nextjs-480.png"
+import cssIcons from "../../svg/css-3svg.svg"
+import framerIcon from "../../svg/framer.svg"
+import nodeIcon from "../../svg/nodejs-icon.svg"
+import scssIcon from "../../svg/scss.svg"
 export const projects = [
-{
+  {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: {pro1},
-    iconLists: [""],
+    title: "Personal Portfolio Design",
+    des: "Build my own personal portfolio design using Framer , Next.js , Typescript and Tailwind",
+    img: porfolioImage,
+    iconLists: [typeScriptIcons, IconsNext,framerIcon, tailwindIcons, cssIcons],
     link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
+    title: "Chat-Chit-Hub - Chatting Website App ",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "",
-    iconLists: [""],
-    link: "/ui.yoom.com",
+    img: bg1,
+    iconLists: [ reactIcons, tailwindIcons, mongodbIcons, javascriptIcons,nodeIcon],
+    link: "https://github.com/akku2005/chat-app",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "",
-    iconLists: [],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "",
-    iconLists: [],
-    link: "/ui.apple.com",
+    title: "Ev Dashboard",
+    des: "Build a Ev Dashboard for one of the startup company with major features like adding vehicle details and navigation .",
+    img: evDashboard,
+    iconLists: [reactIcons, scssIcon, tailwindIcons],
+    link: "https://github.com/akku2005/ev_dashboard",
   },
 ];
-
-// export const testimonials = [
-//   {
-//     quote:
-//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-//   {
-//     quote:
-//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-//   {
-//     quote:
-//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-//   {
-//     quote:
-//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-//   {
-//     quote:
-//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-// ];

@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import NodeJs from '../../assets/icons/node-js.png';
-import EcpressJs from '../../assets/icons/icons8-express-js-48.png';
-import MongoDB from '../../assets/icons/mongodb.png';
-import MySql from '../../assets/icons/mysql.png';
-import RestApi from '../../assets/icons/rest-api.png';
-import Graphql from '../../assets/icons/icons8graphql.png';
+import NodeJs from '../../svg/nodejs.svg';
+import EcpressJs from '../../svg/express.svg';
+import MongoDB from '../../svg/mongo-svg.svg';
+import MySql from '../../svg/mysql.svg';
+import RestApi from '../../svg/RestApisvg.svg';
+import Graphql from '../../svg/graphql.svg';
 
 const Backend = () => {
   const skills = [
@@ -20,7 +20,7 @@ const Backend = () => {
   return (
     <div className="w-full max-w-4xl mx-auto p-5 flex justify-center items-center">
       <div className="text-center w-full">
-        <h1 className="text-2xl font-bold mb-4 text-white">Frontend</h1>
+        <h1 className="text-2xl font-bold mb-4 text-white">Backend </h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {skills.map((skill) => (
             <div

@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import htmlIcon from '../../assets/icons/html.png';
-import cssIcon from '../../assets/icons/css.png';
-import jsIcon from '../../assets/icons/javascript.png';
-import tailwindIcon from '../../assets/icons/tailwind-css.png';
-import reactIcon from '../../assets/icons/react-js.png';
-import nextjs from '../../assets/icons/nextjs.png';
+import htmlIcon from '../../svg/html-5svg.svg';
+import cssIcon from '../../svg/css-3svg.svg';
+import jsIcon from '../../svg/javascriptsvg.svg';
+import tailwindIcon from '../../svg/tailwindcsssvg.svg';
+import reactIcon from '../../svg/reactjs.svg';
+import nextjs from '../../svg/nextjs-icon-svgrepo-com.svg';
 
 const FrontendCard = () => {
   const skills = [
