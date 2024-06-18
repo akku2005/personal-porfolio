@@ -3,7 +3,6 @@ import React, { Suspense, lazy, useState, useEffect } from "react";
 import Loader from "../loader/Loader";
 import { BackgroundBeamsDemo } from "../components/ui/BeameEffect";
 
-
 const About = lazy(() => import("../components/About"));
 const EducationPage = lazy(() => import("../components/Education"));
 const SkillsPage = lazy(() => import("../components/Skills"));
