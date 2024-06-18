@@ -72,7 +72,7 @@ const Projects: React.FC = () => {
                 </h1>
 
                 <p
-                  className="lg:text-sm lg:font-normal font-light text-sm line-clamp-2 flex-wrap"
+                  className="lg:text-sm lg:font-normal font-light text-sm line-clamp-3 flex-wrap"
                   style={{ color: "#BEC1DD", margin: "1vh 0" }}
                 >
                   {item.des}
